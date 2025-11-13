@@ -47,6 +47,7 @@ function calculate() {
     let s = '';
     while (true) {
         tape_history.push(tape);
+        i++;
         s += tape + '\n';
         document.getElementById("hist").value += tape + '\n';
         old_t = tape;
